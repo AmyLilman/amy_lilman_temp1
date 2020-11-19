@@ -1,4 +1,4 @@
-tempf = 70
+#tempf = 70
 #while True:
     #print("temperature " + input.temperature(TemperatureUnit.FAHRENHEIT))
 #if input.temperature(TemperatureUnit.FAHRENHEIT) > tempf:
@@ -7,6 +7,6 @@ tempf = 70
     #light.clear()
 
 while True:
-    print("temperature " + input.temperature(TemperatureUnit.FAHRENHEIT) + "F")
-if input.temperature(TemperatureUnit.FAHRENHEIT) < 70 + input.temperature(TemperatureUnit.FAHRENHEIT) < 40:
+    print("temperature " + input.temperature(TemperatureUnit.FAHRENHEIT) + " F")
+if input.temperature(TemperatureUnit.FAHRENHEIT) < 70 + input.temperature(TemperatureUnit.FAHRENHEIT) > 40:
     light.set_pixel_color(5, light.rgb(0, 250, 0))
