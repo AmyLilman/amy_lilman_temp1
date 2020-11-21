@@ -47,6 +47,7 @@ elif input.temperature(TemperatureUnit.FAHRENHEIT) < 70 + input.temperature(Temp
     light.set_pixel_color(7, light.rgb(0, 250, 0))
     light.set_pixel_color(8, light.rgb(0, 250, 0))
     light.set_pixel_color(9, light.rgb(0, 250, 0))
+
 else:
     light.set_pixel_color(0, light.rgb(0, 0, 250))
     light.set_pixel_color(1, light.rgb(0, 0, 250))
