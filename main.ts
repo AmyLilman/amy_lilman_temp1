@@ -24,7 +24,7 @@
 //  ^ Ariana's code
 while (true) {
     console.log("temperature " + input.temperature(TemperatureUnit.Fahrenheit))
-    if (input.temperature(TemperatureUnit.Fahrenheit) > 85) {
+    if (input.temperature(TemperatureUnit.Fahrenheit) > 70) {
         light.setPixelColor(0, light.rgb(250, 0, 0))
         light.setPixelColor(1, light.rgb(250, 0, 0))
         light.setPixelColor(2, light.rgb(250, 0, 0))
