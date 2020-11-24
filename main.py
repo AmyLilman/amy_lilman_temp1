@@ -6,14 +6,14 @@
     #else:
     #    light.clear()
 
-while True:
-    print("temperature " + input.temperature(TemperatureUnit.FAHRENHEIT) and " F")
-    if input.temperature(TemperatureUnit.FAHRENHEIT) > 70:
-        light.set_pixel_color(5, light.rgb(250, 0, 0))
-    elif input.temperature(TemperatureUnit.FAHRENHEIT) < 70 and input.temperature(TemperatureUnit.FAHRENHEIT) > 40:
-        light.set_pixel_color(5, light.rgb(0, 250, 0))    
-    else:
-        light.set_pixel_color(5, light.rgb(0, 0, 250))
+#while True:
+#    print("temperature " + input.temperature(TemperatureUnit.FAHRENHEIT) and " F")
+#    if input.temperature(TemperatureUnit.FAHRENHEIT) > 70:
+#        light.set_pixel_color(5, light.rgb(250, 0, 0))
+#    elif input.temperature(TemperatureUnit.FAHRENHEIT) < 70 and input.temperature(TemperatureUnit.FAHRENHEIT) > 40:
+#        light.set_pixel_color(5, light.rgb(0, 250, 0))    
+#    else:
+#        light.set_pixel_color(5, light.rgb(0, 0, 250))
 
 
 while True:

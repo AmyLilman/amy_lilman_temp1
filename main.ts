@@ -5,17 +5,14 @@
 //     light.set_pixel_color(5, light.rgb(250, 0, 0)) 
 // else:
 //     light.clear()
-while (true) {
-    console.log("temperature " + input.temperature(TemperatureUnit.Fahrenheit) && " F")
-    if (input.temperature(TemperatureUnit.Fahrenheit) > 70) {
-        light.setPixelColor(5, light.rgb(250, 0, 0))
-    } else if (input.temperature(TemperatureUnit.Fahrenheit) < 70 && input.temperature(TemperatureUnit.Fahrenheit) > 40) {
-        light.setPixelColor(5, light.rgb(0, 250, 0))
-    } else {
-        light.setPixelColor(5, light.rgb(0, 0, 250))
-    }
-    
-}
+// while True:
+//     print("temperature " + input.temperature(TemperatureUnit.FAHRENHEIT) and " F")
+//     if input.temperature(TemperatureUnit.FAHRENHEIT) > 70:
+//         light.set_pixel_color(5, light.rgb(250, 0, 0))
+//     elif input.temperature(TemperatureUnit.FAHRENHEIT) < 70 and input.temperature(TemperatureUnit.FAHRENHEIT) > 40:
+//         light.set_pixel_color(5, light.rgb(0, 250, 0))    
+//     else:
+//         light.set_pixel_color(5, light.rgb(0, 0, 250))
 while (true) {
     console.log("temperature " + input.temperature(TemperatureUnit.Fahrenheit))
     if (input.temperature(TemperatureUnit.Fahrenheit) > 70) {
